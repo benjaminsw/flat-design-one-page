@@ -1,4 +1,5 @@
 ﻿html, body {
+    overflow:auto;
     overflow-x:hidden;
     margin:0;
     height:100%;
@@ -9,15 +10,64 @@
 }
 section{
     position:relative;
-    margin:0 auto;
-    padding:5.25 auto;
+    margin:0 -9999rem;
+    padding:5.25rem 9999rem;
     text-align:center;
 }
 
 #welcomeSection{
+    font-size:40px;
     background-color:#2980b9;
     color:#ecf0f1;
 }
+#aboutSection{
+    background-color:#27ae60;
+    color:#ecf0f1;
+
+}
+#aboutSection p, #skillsSection p{
+        padding: 0 250px;
+}
+#skillsSection{
+    background-color:#d35400;
+    color:#ecf0f1;
+
+}
+
+.sectionImg{
+    position:relative;
+    margin:0 -9999rem;
+    padding:5.25rem 9999rem;
+    text-align:center;
+}
+
+#workSection{
+    background-color:#8e44ad;
+    color:#ecf0f1;
+
+}
+
+img{
+    padding:10px;
+}
+#clientsSection{
+    background-color:#16a085;
+    color:#ecf0f1;
+
+    position:relative;
+    margin:0 -9999rem;
+    padding:5.25rem 9999rem;
+    text-align:center;
+}
+
+#contactSection{
+    background-color:#7f8c8d;
+    color:#ecf0f1;
+
+}
 @media only screen and (max-device-width:999px){
 
+}
+::-webkit-scrollbar{
+    display:none;
 }
