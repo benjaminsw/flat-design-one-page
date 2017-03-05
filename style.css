@@ -9,10 +9,11 @@
 }
 section{
     position:relative;
-    margin:0 -999rem;
-    margin:5.25rem 999rem;
+    margin:0 auto;
+    padding:5.25 auto;
     text-align:center;
 }
+
 #welcomeSection{
     background-color:#2980b9;
     color:#ecf0f1;
