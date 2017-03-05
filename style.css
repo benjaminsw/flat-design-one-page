@@ -12,8 +12,10 @@ section{
     margin:0 -999rem;
     margin:5.25rem 999rem;
     text-align:center;
-
-
+}
+#welcomeSection{
+    background-color:#2980b9;
+    color:#ecf0f1;
 }
 @media only screen and (max-device-width:999px){
 
